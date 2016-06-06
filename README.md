@@ -21,3 +21,7 @@ Dockerized Skype based on 32-bit Ubuntu (see also: https://github.com/ouyi/docke
   ```sh
     ./skype.sh <image_name> <container_name>
   ```
+
+## Known issues
+
+- If the host machine has a VPN connection, the Docker container may have problems accessing the Internet. Adding "--net=host" may work around the issue.
