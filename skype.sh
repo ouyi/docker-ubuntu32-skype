@@ -12,9 +12,9 @@ container_name=${2:-"ubuntu32-skype"}
 USER_UID=$(id -u)
 USER_GID=$(id -g)
 
-xhost localhost:$(whoami)
+xhost local:$(whoami)
 docker run -it --rm \
-    --privileged \
+    --net=host \
     --env=USER_UID=$USER_UID \
     --env=USER_GID=$USER_GID \
     --env=DISPLAY=unix$DISPLAY \
