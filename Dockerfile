@@ -3,6 +3,8 @@ MAINTAINER Yi Ou
 
 ENV DEBIAN_FRONTEND noninteractive
 
+RUN echo "nameserver 8.8.8.8" > tee /etc/resolv.conf 
+
 # Install Skype and PulseAudio.
 WORKDIR /usr/src
 RUN apt-get update \
