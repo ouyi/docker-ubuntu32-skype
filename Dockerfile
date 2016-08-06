@@ -7,7 +7,7 @@ RUN echo "nameserver 8.8.8.8" > tee /etc/resolv.conf
 
 # Install Skype and PulseAudio.
 WORKDIR /usr/src
-RUN apt-get update \
+RUN apt-get -y update \
 	&& apt-get install -y --no-install-recommends \
 		libpulse0 \
 		pulseaudio \
