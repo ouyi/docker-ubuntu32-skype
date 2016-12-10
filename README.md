@@ -2,6 +2,12 @@
 
 Dockerized Skype based on 32-bit Ubuntu (see also: https://github.com/ouyi/docker-ubuntu-precise-core-i386). The implementation is based on https://github.com/terlar/docker-skype-pulseaudio.
 
+## Prerequisite
+
+A working docker installation. Please refer to the [docker documentation](https://docs.docker.com/engine/installation/) for this.
+
+To be able to run docker as normal user (i.e., without using sudo) as follows, a group called docker must exists and the user must be member of that group.
+
 ## Usage
 
 1. Clone this repository and change to the directory:
