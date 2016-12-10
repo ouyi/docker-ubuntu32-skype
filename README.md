@@ -25,3 +25,4 @@ Dockerized Skype based on 32-bit Ubuntu (see also: https://github.com/ouyi/docke
 ## Known issues
 
 - If the host machine has a VPN connection, the Docker container may have problems accessing the Internet. Adding "--net=host" may work around the issue.
+- On fedora 25, I need to use "setenforce 0" to avoid "groupadd: failure while writing changes to /etc/group" 
