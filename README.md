@@ -1,3 +1,7 @@
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/ouyi/docker-ubuntu32-skype/)
+[![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/ouyi/docker-ubuntu32-skype/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)](https://hub.docker.com/r/ouyi/docker-ubuntu32-skype/)
+
 ## About
 
 Dockerized Skype based on 32-bit Ubuntu (see also: https://github.com/ouyi/docker-ubuntu-precise-core-i386). The implementation is based on https://github.com/terlar/docker-skype-pulseaudio.
